@@ -1,8 +1,8 @@
 .images{
   display:flex;
   justify-content:center;
-  max-width:100%;
-  max-height:auto;
+  align:center;
+  flex-direction:column;
 }
 
 .credits{
