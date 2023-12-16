@@ -18,12 +18,11 @@ h1{
 /*display:flex;
 justify-content: center;*/
 font-size: 25px;
-font-family: 'Poppins', sans-serif;
+/*font-family: 'Poppins', sans-serif;*/
 margin-left:auto;
 margin-right:auto;
-background-color:orange;
-border-radius: 25px;
-  padding: 2px; 
+/*background-color:gainsboro;*/
+border-radius: 5;
   align:center;
   width: auto;
   height: auto; 
@@ -31,22 +30,27 @@ border-radius: 25px;
  
 
 
-.dek {
-font-family:'poppins', sans-serif;	
-/*display:flex;
-justify-content: center;*/
+h3{
+  margin-left:auto;
+margin-right:auto;
+/*background-color:gainsboro;*/
+border-radius: 7;
+  align:center;
+  width: auto;
+  height: auto; 
+
 }
 
 .byline{
 /*display:flex;
 justify-content: center;*/
-font-family:'poppins', sans-serif;
-border-radius: 25px;
-font-size: 16px;
+/*font-family:'poppins', sans-serif;*/
+border-radius: 75%;
+font-size: 18px;
 text-align:center;
 margin-left:auto;
 margin-right:auto;
-background-color:lightblue;
+/*background-color:gainsboro;*/
   padding: 10px; 
   width: auto;
   height: auto;  
@@ -66,9 +70,10 @@ padding:5px;
 
 .chart {
 display:flex;
+flex-wrap:wrap;
 justify-content:center;
-align-content:center;
-/*padding:5px;*/
+/*align-content:center;*/
+padding:25px;
 max-width:100%;
 height:auto;
 
