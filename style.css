@@ -128,43 +128,47 @@ img{
 
 
 /*IPHONE SCREEN WIDTH*/
-@media only screen and (max-width: 590px) and (max-height: 650px)
+@media only screen and (max-width: 430px)
 {
- .story{
+  .story{
+    display:flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+
+  }
+   .lede_storygrafs{
   margin-left: auto;
   margin-right:auto;
+  display:flex;
+    flex-direction: column;
+ }
+ .chart_1{
+  margin-left: auto;
+  margin-right:auto;
+  display:flex;
+    flex-direction: column;
 }
 
-.hed{
-font-size: 16px;
-display:flex;
-flex-direction: column;
+ .chart_2{
+  margin-left: auto;
+  margin-right:auto;
+  display:flex;
+    flex-direction: column;
 }
 
-  .graf_1{
-  margin-left: auto;
-  margin-right:auto;
- }
- .lede_storygrafs{
-  margin-left: auto;
-  margin-right:auto;
- }
+/*
 .map{
   margin-left: auto;
   margin-right:auto;
-}
-.chart_1{
-  margin-left: auto;
-  margin-right:auto;
-}
-.chart_2{
-  margin-left: auto;
-  margin-right:auto;
+  max-width:100%;
 }
 
+
 .images{
-max-height:100%;
-}
+max-width:100%;
+}*/
 
 }
 
@@ -176,7 +180,11 @@ max-height:100%;
 /*MACBOOK SCREEN SIZE*/
 @media only screen and (min-width: 900px)
 {
-
+.story{
+  display:flex;
+  flex-direction: column;
+max-width: 100%;
+}
 .images{
   max-width:100%;
 }
@@ -186,8 +194,11 @@ font-size:25pt;
 }
 
 .lede_storygrafs{
-  margin-left: 300px;
-  margin-right:300px;
+  margin-left: 250px;
+  margin-right:250px;
+  max-width: 100%;
+  display:flex;
+  flex-direction: column;
 }
 
 .dek{
@@ -207,8 +218,8 @@ font-size:25pt;
 
 .chart_1{
   max-width: 50%;
-  margin-left: 300px;
-  margin-right:300px;
+  margin-left: 250px;
+  margin-right:250px;
  
 
 
@@ -217,22 +228,79 @@ font-size:25pt;
 
   .chart_2{
   max-width:50%;
-  margin-left: 300px;
-  margin-right:300px;
+  margin-left: 250px;
+  margin-right:250px;
  
 
 }
 
+ .map{
+  margin-left: 250px;
+  margin-right: 250px;
+  max-width:100%;
+ 
+}
+
+}
+
+/*1920px screen size*/
+@media only screen and (min-width: 1920px)
+{
+
+.images{
+  max-width:100%;
+}
+
+h1{
+font-size:25pt;
+}
+
+.lede_storygrafs{
+  margin-left: 550px;
+  margin-right:550px;
+}
+
+.dek{
+  margin-left: 200px;
+  margin-right:200px;
+
+}
+
+  .charts{
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+  
+
+  }
+
+.chart_1{
+  max-width: 50%;
+  margin-left: 550px;
+  margin-right:550px;
+ 
+
+
+}
+
+
+  .chart_2{
+  max-width:50%;
+  margin-left: 550px;
+  margin-right:550px;
+ 
+
+}
 
  .map{
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 560px;
+  margin-right: 560px;
   max-width:60%;
 }
 
 }
 
-/*
+
 /*1440 Size Monitor*/
 @media only screen and (min-width: 2048px)
 {
@@ -243,8 +311,8 @@ font-size:35px;
 }
 
 .lede_storygrafs{
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-left: 750px;
+  margin-right: 750px;
 }
  
 .images{
@@ -266,8 +334,16 @@ font-size:35px;
 }
 
 .chart_1{
-   margin-left: 650px;
-  margin-right: 650px;
+   margin-left: 750px;
+  margin-right: 750px;
+  flex-grow:1;
+  flex-direction:row;
+ flex-basis:auto;
+
+}
+.chart_2{
+   margin-left: 750px;
+  margin-right: 750px;
   flex-grow:1;
   flex-direction:row;
  flex-basis:auto;
@@ -275,8 +351,8 @@ font-size:35px;
 }
 
  .map{
-  margin-left: 560px;
-  margin-right:560px;
+  margin-left: 730px;
+  margin-right:730px;
   max-width:100%;
 }
 
